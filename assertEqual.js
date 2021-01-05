@@ -1,3 +1,6 @@
+//created a function to use console.assert() 
+//as a method to check for correct outputs
+
 const assertEqual = function (actual, expected) {
 
   let msg1 = '1 === 1'
