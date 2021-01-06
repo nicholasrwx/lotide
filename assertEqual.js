@@ -1,5 +1,6 @@
 //created a function to use console.assert() 
 //as a method to check for correct outputs
+//this uses a strict comparison within
 
 const assertEqual = function (actual, expected) {
 
