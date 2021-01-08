@@ -1,3 +1,5 @@
+
+
 function assertArraysEqual(Array1, Array2) {
   //array that logs appropriate message, based on callback function instead of strict === comparison
   let msg1 = "true";
@@ -9,6 +11,7 @@ function assertArraysEqual(Array1, Array2) {
 
   console.assert(eqArrays(Array1, Array2), `${msg2}`); //else if false, assert this msg.
 }
+
 
 function eqArrays(Array1, Array2) {
   //callback function, compares two arrays element by element
