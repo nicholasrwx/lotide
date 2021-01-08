@@ -25,5 +25,8 @@ function eqArrays(Array1, Array2) {                           //callback functio
 
 
 
+
+
+
 assertArraysEqual([0, 1, 3], [0, 1, 3]);                      //function call - should pass
 assertArraysEqual([0, 1, 3], [0, 1, 2]);                      //function call - should fail 
