@@ -1,4 +1,6 @@
-const assertEqual = function (actual, expected) {
+
+
+const assertEqual = function(actual, expected) {
   let msg1 = `${actual} === ${expected}`;
   let msg2 = `${actual} !== ${expected}`;
 
@@ -8,7 +10,7 @@ const assertEqual = function (actual, expected) {
   console.assert(actual === expected, `Assertion failed: ${msg2}`);
 };
 
-const countOnly = function (allItems, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   let newObject = {};
 
   for (let item of allItems) {

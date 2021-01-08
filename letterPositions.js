@@ -1,4 +1,6 @@
-const assertEqual = function (Array1, Array2) {
+
+
+const assertEqual = function(Array1, Array2) {
   let msg1 = `${Array1} === ${Array2}`;
   let msg2 = `${Array1} !== ${Array2}`;
 
@@ -43,9 +45,9 @@ function eqArrays(Array1, Array2) {
   return result;
 }
 
-const letterPositions = function (sentence) {
+const letterPositions = function(sentence) {
   sentence = sentence.toLowerCase();
-  var newObject = {};
+  let newObject = {};
 
   for (let l = 0; l < sentence.length; l++) {
     let newKey = sentence[l];
@@ -70,7 +72,7 @@ const letterPositions = function (sentence) {
 
 let sentence = "light house";
 
-var result = letterPositions(sentence);
+let result = letterPositions(sentence);
 console.log(result);
 
 assertEqual(letterPositions("hello").e, [1]); //pass- same type comparison

@@ -1,4 +1,6 @@
-function eqArrays(Array1, Array2) {
+
+
+const eqArrays = function (Array1, Array2) {
   //callback function, compares two arrays element by element
 
   let result = true;
@@ -9,7 +11,7 @@ function eqArrays(Array1, Array2) {
   return result; //return result to assertArraysEqual
 }
 
-const assertEqual = function (Value1, Value2) {
+const assertEqual = function(Value1, Value2) {
   //eqArrays(Value1, Value2)
   //log a msg, based on if the values are the same or not
   let msg1 = `${Value1} === ${Value2}`;
@@ -22,7 +24,7 @@ const assertEqual = function (Value1, Value2) {
   console.assert(Value1 === Value2, `${msg2}`);
 };
 
-const eqObjects = function (object1, object2) {
+const eqObjects = function(object1, object2) {
   //if objects are unequal in length we know its false, therefore
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;

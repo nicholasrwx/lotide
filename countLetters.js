@@ -1,4 +1,6 @@
-const assertEqual = function (actual, expected) {
+
+
+const assertEqual = function(actual, expected) {
   let msg1 = `${actual} === ${expected}`;
   let msg2 = `${actual} !== ${expected}`;
 
@@ -8,8 +10,8 @@ const assertEqual = function (actual, expected) {
   console.assert(actual === expected, `${msg2}`);
 };
 
-const countLetters = function (string) {
-  var newObject = {};
+const countLetters = function(string) {
+  let newObject = {};
 
   for (let letter of string) {
     if (newObject[letter]) {

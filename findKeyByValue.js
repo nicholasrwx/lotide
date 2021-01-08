@@ -1,4 +1,6 @@
-const assertEqual = function (Value1, Value2) {
+
+
+const assertEqual = function(Value1, Value2) {
   //log a msg, based on if the values are the same or not
   let msg1 = `${Value1} === ${Value2}`;
   let msg2 = `${Value1} !== ${Value2}`;
@@ -69,7 +71,7 @@ function eqArrays(Value1, Value2) {
   return result;
 }
 
-const findKeyByValue = function (Object, Value) {
+const findKeyByValue = function(Object, Value) {
   //loop through the given Object for a Value
 
   let trueValue = "";
@@ -80,14 +82,14 @@ const findKeyByValue = function (Object, Value) {
     if (Object[Ob] === Value) {
       trueValue = Ob;
       //console.log(`${Ob}: ${Value}`);
-      return trueValue; 
+      return trueValue;
     }
 
   }
 
  
-//console.log(undefined); 
-return falseValue; 
+  //console.log(undefined);
+  return falseValue;
 
 };
 

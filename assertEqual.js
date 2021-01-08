@@ -1,10 +1,11 @@
-//created a function to use console.assert() 
+
+//created a function to use console.assert()
 //as a method to check for correct outputs
 //this uses a strict comparison within
 
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
 
-  let msg1 = '1 === 1'
+  let msg1 = '1 === 1';
   let msg2 = '"Lighthouse Labs" !== "Bootcamp"';
 
   if (actual === expected) {
