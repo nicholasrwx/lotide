@@ -15,7 +15,8 @@ const countLetters = function (string) {
     if (newObject[letter]) {
       newObject[letter]++;
     } else if (
-      !newObject[letter] && letter != "'" &&
+      !newObject[letter] &&
+      letter != "'" &&
       letter != "," &&
       letter != "." &&
       letter != " "
