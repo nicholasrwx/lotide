@@ -34,12 +34,14 @@ const countLetters = function(string) {
 let string = "I'm always up late, well passed 8 p.m.";
 
 const result1 = countLetters(string);
-console.log(result1);
+//console.log(result1);
 
-assertEqual(result1["a"], 4); //pass
-assertEqual(result1["l"], 4); //pass
-assertEqual(result1["8"], 1); //pass
-assertEqual(result1[" "], undefined); //pass
-assertEqual(result1[","], undefined); //pass
-assertEqual(result1["."], undefined); //pass
-assertEqual(result1["'"], undefined); //pass
+//assertEqual(result1["a"], 4); //pass
+//assertEqual(result1["l"], 4); //pass
+//assertEqual(result1["8"], 1); //pass
+//assertEqual(result1[" "], undefined); //pass
+//assertEqual(result1[","], undefined); //pass
+//assertEqual(result1["."], undefined); //pass
+//assertEqual(result1["'"], undefined); //pass
+
+module.exports = countLetters;

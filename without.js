@@ -1,6 +1,5 @@
-
-
-const _ = require("lodash");            //required to use _.without() method
+//**Find a different way to create this program
+            //required to use _.without() method
 let checkOriginal = [];                 //pass original source array here at the end of without function
 
 
@@ -41,10 +40,11 @@ function eqArrays(Array1, Array2) {                           //callback functio
 
 
 
-without([1, 2, 3, 4, 5], [1, 3, 5]);      //calling without function using a source array and removal array
+//without([1, 2, 3, 4, 5], [1, 3, 5]);      //calling without function using a source array and removal array
 
 //Test Cases
-assertArraysEqual(checkOriginal, [1, 2, 3, 4, 5]); //True - original array isn't modified
-assertArraysEqual(without([1, 2, 3, 4, 5], ["1", "3", "5"]), [1, 2, 3, 4, 5]); //True - a numbers-strings array CAN'T modify a numbers array
-assertArraysEqual(without(["important", "test", "case"], ["important", "test"]), ["case"]); //True - a strings array can be modified using _.without()
+//assertArraysEqual(checkOriginal, [1, 2, 3, 4, 5]); //True - original array isn't modified
+//assertArraysEqual(without([1, 2, 3, 4, 5], ["1", "3", "5"]), [1, 2, 3, 4, 5]); //True - a numbers-strings array CAN'T modify a numbers array
+//assertArraysEqual(without(["important", "test", "case"], ["important", "test"]), ["case"]); //True - a strings array can be modified using _.without()
 
+module.exports = without;

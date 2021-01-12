@@ -1,21 +1,8 @@
-
-//created a function to use console.assert()
-//as a method to check for correct outputs
-//this uses a strict comparison within
-
-const assertEqual = function(actual, expected) {
-
-  let msg1 = '1 === 1';
-  let msg2 = '"Lighthouse Labs" !== "Bootcamp"';
-
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
-    console.log(`Assertion passed: ${msg1}`);
+    console.log(`Assertion passed: ${actual} === ${expected}`);
   }
-  console.assert(actual === expected, `${msg2}`);
-
+  console.assert(actual === expected, `${actual} !== ${expected}`);
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-
-
+module.exports = assertEqual; // not passing the function, just the variable

@@ -73,8 +73,11 @@ const letterPositions = function(sentence) {
 let sentence = "light house";
 
 let result = letterPositions(sentence);
-console.log(result);
+//console.log(result);
 
-assertEqual(letterPositions("hello").e, [1]); //pass- same type comparison
-assertEqual(letterPositions("I'm")["I"], undefined); //pass- undefined comparison
-assertEqual(letterPositions("hello").o, 4); //pass- differen't type comparison
+//assertEqual(letterPositions("hello").e, [1]); //pass- same type comparison
+//assertEqual(letterPositions("I'm")["I"], undefined); //pass- undefined comparison
+//assertEqual(letterPositions("hello").o, 4); //pass- differen't type comparison
+
+
+module.exports = letterPositions;
